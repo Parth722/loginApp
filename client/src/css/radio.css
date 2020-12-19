@@ -1,0 +1,36 @@
+
+
+.radio{
+  margin: 10px auto;
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 5px 20px;
+  background-color: rgb(233, 233, 233);
+  border: 0px;
+  border-radius: 20px;
+}
+
+.radio .disk{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 10px;
+  border: 0px solid;
+  border-radius: 50%;
+  background-color: rgb(184, 184, 184);
+  content: "";
+}
+
+
+.radio:hover .disk{
+  cursor: pointer;
+  background-color: rgb(151, 151, 151);
+}
+
+
+.active:hover{
+  cursor: none;
+}
